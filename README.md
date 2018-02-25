@@ -1,6 +1,7 @@
 Long John Silveys broken theme
 
 Problem 1 + 2:
+---
 The logs when launching stencil state, which stated that it was missing the header folder and file.
 
 { Error: layouts\header\header.scss doesn't exist!
@@ -13,8 +14,9 @@ The logs when launching stencil state, which stated that it was missing the head
   status: 1 }
 
 To resolve the issue I got a copy of the same version of Cornerstone and copied the folder and file over and bundled the theme and uploaded it to my store
----
+
 Problem 3:
+---
 
 The reason the theme was inverted was caused by a script in footer.html which was rotating the entire theme.
 
@@ -23,7 +25,7 @@ Templates > components > common > footer.html
 
 Once here the issue starts at line 92 - 102 and here is a copy of the removed script if needed:
 
- <style>
+ '''<style>
         body {
            width: 100%;
            height: 100%;
@@ -33,4 +35,4 @@ Once here the issue starts at line 92 - 102 and here is a copy of the removed sc
            -o-transform: rotate(180deg);
            transform: rotate(180deg);
         }
-        </style>
+        </style>'''
