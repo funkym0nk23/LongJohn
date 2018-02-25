@@ -1,0 +1,58 @@
+Here is the link to get started with the V3 API:
+
+https://developer.bigcommerce.com/api/guides/#postman-oauth-quickstart-guide
+
+Here is the XML layout to help get your order created through the API:
+
+create an order
+---------------------
+{
+  "customer_id": 0,
+  "billing_address": {
+    "first_name": "",
+    "last_name": "",
+    "company": "",
+    "street_1": "1",
+    "street_2": "",
+    "city": "",
+    "state": "",
+    "zip": "",
+    "country": "United States",
+    "country_iso2": "US",
+    "phone": "",
+    "email": ""
+  },
+  "products": [
+    {
+      "product_id": ,
+      "quantity": 
+    }
+  ]
+}
+
+More information can be found here:
+
+https://developer.bigcommerce.com/api/v2/#create-an-order
+---------------------
+
+
+Here is the XML layout to help get your shipment created through the API:
+
+Create a shipment:
+---------------------
+{
+  "tracking_number": "",
+  "comments": "",
+  "order_address_id": ,
+  "shipping_provider": "",
+  "items": [
+    {
+      "order_product_id": ,
+      "quantity": 
+    }
+  ]
+}
+
+More information can be found here:
+
+https://developer.bigcommerce.com/api/v2/#create-a-shipment
