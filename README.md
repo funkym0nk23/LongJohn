@@ -25,7 +25,7 @@ Templates > components > common > footer.html
 
 Once here the issue starts at line 92 - 102 and here is a copy of the removed script if needed:
 
- '''<style>
+ <style>
         body {
            width: 100%;
            height: 100%;
@@ -35,4 +35,4 @@ Once here the issue starts at line 92 - 102 and here is a copy of the removed sc
            -o-transform: rotate(180deg);
            transform: rotate(180deg);
         }
-        </style>'''
+        </style>
