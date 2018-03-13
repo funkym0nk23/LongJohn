@@ -2,7 +2,7 @@ Long John Silveys broken theme
 
 Problem 1:
 ---
-The logs when launching stencil state, which stated that it was missing the header folder and file.
+The logs when launching `stencil state`, which stated that it was missing the header folder and file.
 
 { Error: layouts\header\header.scss doesn't exist!
     at options.error (C:\Users\Miguel\AppData\Roaming\npm\node_modules\@bigcommerce\stencil-cli\node_modules\@bigcommerce\node-sass\lib\index.js:277:32)
