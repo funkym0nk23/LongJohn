@@ -17,7 +17,7 @@ To resolve the issue I got a copy of the same version of Cornerstone and copied 
 
 Problem 2:
 ---
-Checking the product category page, the search page, and other places where the filters apply I noticed the styling was off for the side block containing the filters. Upon further inspection I noticed that this was due to a customization that caused the body to be commented out. This was found in ` Assets > scss > layouts > body > body.scss` by removing the tags that commented out the body, this issue was resolved. 
+Checking the product category page, the search page, and other places where the filters apply I noticed the styling was off for the side block containing the filters. Upon further inspection I noticed that this was due to a customization that was causing much of the body to be commented out. This was found in ` Assets > scss > layouts > body > body.scss` by removing the tags that commented out the body, this issue was resolved. 
 
 
 Problem 3:
