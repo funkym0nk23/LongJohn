@@ -2,7 +2,7 @@ Long John Silveys broken theme
 
 Problem 1:
 ---
-The logs when launching `stencil state`, which stated that it was missing the header folder and file.
+The logs when launching `stencil state`, stated that it was missing the header folder and file as the error message I received is shown below:
 
 { Error: layouts\header\header.scss doesn't exist!
     at options.error (C:\Users\Miguel\AppData\Roaming\npm\node_modules\@bigcommerce\stencil-cli\node_modules\@bigcommerce\node-sass\lib\index.js:277:32)
@@ -13,7 +13,7 @@ The logs when launching `stencil state`, which stated that it was missing the he
   file: 'layouts/layouts.scss',
   status: 1 }
 
-To resolve the issue I got a copy of the same version of Cornerstone and copied the folder and file over and bundled the theme and uploaded it to my store
+To resolve the issue I got a copy of the same version of Cornerstone and copied the folder and file over and bundled the theme and uploaded it to my sanbox store.
 
 Problem 2:
 ---
