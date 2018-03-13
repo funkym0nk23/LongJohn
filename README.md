@@ -17,7 +17,7 @@ To resolve the issue I got a copy of the same version of Cornerstone and copied 
 
 Problem 2:
 ---
-Checking the product category page, the search page, and other places where the filters apply I noticed the styling was off for the side block containing the filters. Upon further inspection I noticed that this was due to a customization that caused the body to be commented out. This was found in _ Assets > scss > layouts > body > body.scss_ by removing the tags that commented out the body, this issue was resolved. 
+Checking the product category page, the search page, and other places where the filters apply I noticed the styling was off for the side block containing the filters. Upon further inspection I noticed that this was due to a customization that caused the body to be commented out. This was found in ` Assets > scss > layouts > body > body.scss` by removing the tags that commented out the body, this issue was resolved. 
 
 
 Problem 3:
@@ -26,11 +26,11 @@ Problem 3:
 The reason the theme was inverted was caused by a script in footer.html which was rotating the entire theme.
 
 This could be found by navigating the folders by going to these folders:
-Templates > components > common > footer.html
+`Templates > components > common > footer.html`
 
 Once here the issue starts at line 92 - 102 and here is a copy of the removed script if needed:
 
- <style>
+ `<style>
         body {
            width: 100%;
            height: 100%;
@@ -40,4 +40,4 @@ Once here the issue starts at line 92 - 102 and here is a copy of the removed sc
            -o-transform: rotate(180deg);
            transform: rotate(180deg);
         }
-        </style>
+        </style>`
