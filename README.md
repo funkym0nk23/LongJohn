@@ -16,9 +16,9 @@ The logs when launching stencil state, which stated that it was missing the head
 To resolve the issue I got a copy of the same version of Cornerstone and copied the folder and file over and bundled the theme and uploaded it to my store
 
 Problem 2:
+---
 Checking the product category page, the search page, and other places where the filters apply I noticed the styling was off for the side block containing the filters. Upon further inspection I noticed that this was due to a customization that caused the body to be commented out. This was found in _ Assets > scss > layouts > body > body.scss_ by removing the tags that commented out the body, this issue was resolved. 
 
----
 
 Problem 3:
 ---
