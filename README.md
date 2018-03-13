@@ -1,4 +1,4 @@
-Long John Silveys broken theme
+Long John Silveys theme
 
 Problem 1:
 ---
